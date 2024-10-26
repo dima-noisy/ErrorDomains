@@ -48,16 +48,6 @@
 			path = ErrorDomains;
 			sourceTree = "<group>";
 		};
-		64C905E62CCD7FF000837A22 /* ErrorDomainsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ErrorDomainsTests;
-			sourceTree = "<group>";
-		};
-		64C905F02CCD7FF000837A22 /* ErrorDomainsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ErrorDomainsUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				64C905CF2CCD7FEF00837A22 /* ErrorDomains */,
-				64C905E62CCD7FF000837A22 /* ErrorDomainsTests */,
-				64C905F02CCD7FF000837A22 /* ErrorDomainsUITests */,
 				64C905CE2CCD7FEF00837A22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				64C905E52CCD7FF000837A22 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				64C905E62CCD7FF000837A22 /* ErrorDomainsTests */,
-			);
 			name = ErrorDomainsTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				64C905EF2CCD7FF000837A22 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				64C905F02CCD7FF000837A22 /* ErrorDomainsUITests */,
 			);
 			name = ErrorDomainsUITests;
 			packageProductDependencies = (
